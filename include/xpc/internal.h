@@ -10,6 +10,7 @@
 #define __XPC_INTERNAL_H__
 
 #include <xpc/private.h>
+#include <os/object_private.h>
 
 /* type */
 #define XPC_OBJECT_HEADER xpc_type_t type

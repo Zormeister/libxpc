@@ -181,6 +181,7 @@
 		F01412442E6D90B300349FD5 /* base.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base.c; sourceTree = "<group>"; };
 		F01412472E6D998D00349FD5 /* bool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bool.c; sourceTree = "<group>"; };
 		F01412492E6D9AF000349FD5 /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		F014124B2E6E32CB00349FD5 /* object_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object_private.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				F0140FB42E6D4C0E00349FD5 /* base_private.h */,
+				F014124B2E6E32CB00349FD5 /* object_private.h */,
 			);
 			path = os;
 			sourceTree = "<group>";
