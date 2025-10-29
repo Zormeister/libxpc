@@ -19,7 +19,11 @@ struct _xpc_type_s {
 	/* I'd rather not take the risk. */
 	uint32_t typeId;
 	size_t typeSize;
-	
+
+};
+
+struct _xpc_object_s {
+    _OS_OBJECT_HEADER(void *, refcnt, xrefcnt);
 };
 
 #endif /* __XPC_INTERNAL_H__ */
